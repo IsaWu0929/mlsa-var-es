@@ -1,0 +1,7 @@
+model,target,crossover_eps_estimate,interp_method,MLSA_wins_below
+bs,VaR,1/32,log-linear,True
+bs,ES,1/32,log-linear,True
+merton,VaR,1/38,log-linear,True
+merton,ES,1/37,log-linear,True
+heston,VaR,1/43,log-linear,True
+heston,ES,1/42,log-linear,True

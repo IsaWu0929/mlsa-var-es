@@ -1,0 +1,7 @@
+model,target,smallest_eps,MLSA_time,NSA_time,speedup,MLSA_RMSE,NSA_RMSE,verdict
+bs,VaR,1/512,3.546,11.437,3.22x,0.0275,0.0135,MLSA slightly faster
+bs,ES,1/512,3.406,7.915,2.32x,0.0191,0.0183,USE MLSA (>=2x speedup)
+merton,VaR,1/512,4.193,4.262,1.02x,0.1775,0.1479,ROUGHLY EQUAL
+merton,ES,1/512,4.283,4.376,1.02x,0.2183,0.2478,ROUGHLY EQUAL
+heston,VaR,1/512,5.508,9.524,1.73x,0.1309,0.0737,MLSA slightly faster
+heston,ES,1/512,5.601,10.062,1.80x,0.0870,0.0588,MLSA slightly faster

@@ -1,0 +1,7 @@
+model,target,inflated_RMSE,inflated_mean_time
+bs,VaR,0.0680,0.311
+bs,ES,0.4982,0.310
+heston,VaR,0.4201,0.512
+heston,ES,0.4133,0.430
+merton,VaR,0.6271,0.355
+merton,ES,0.4963,0.327

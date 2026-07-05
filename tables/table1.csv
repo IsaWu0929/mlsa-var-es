@@ -1,0 +1,6 @@
+epsilon,VaR h0,VaR L,VaR gamma_n,ES h0,ES L,ES gamma_n
+1/32,1/16,1,(see code),1/16,1,(see code)
+1/64,1/32,1,(see code),1/32,1,(see code)
+1/128,1/32,2,(see code),1/32,2,(see code)
+1/256,1/32,3,(see code),1/32,3,(see code)
+1/512,1/32,4,(see code),1/32,4,(see code)

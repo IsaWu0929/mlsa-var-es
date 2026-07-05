@@ -1,0 +1,4 @@
+algorithm,VaR slope (RMSE),VaR slope (eps),ES slope (RMSE),ES slope (eps)
+NSA,-1.34,-1.44,-1.18,-1.48
+MLSA,-1.27,-1.11,-1.09,-1.18
+SA,-2.52,-0.82,-1.79,-0.79

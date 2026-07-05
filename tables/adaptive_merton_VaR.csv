@@ -1,0 +1,3 @@
+variant,RMSE,mean_time_s,n_runs
+standard,0.619075,0.0228,80
+adaptive,0.274908,0.3655,80

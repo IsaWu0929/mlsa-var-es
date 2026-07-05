@@ -1,0 +1,9 @@
+test,passed,message,value,tolerance
+T1,True,xi*  = 2.0119  (paper: 2.012)   chi* = 2.9011  (paper: 2.901),0.00012825508134195474,0.01
+T2,True,"after 5e5 steps: xi=2.0190 (target 2.0119), chi=2.9172 (target 2.9011), max err = 0.0161",0.016098992495753084,0.05
+T3,True,"K=256, N=2e5: xi=2.0356, chi=2.9377, max err = 0.0366  (note: bias O(1/K) is non-zero)",0.03658628299439082,0.1
+T4,True,"xi^ML - xi^NSA(K=64) = -0.0907, chi^ML - chi^NSA = -0.0418",0.0906542922013196,0.3
+T5,True,"E[S_T] = 100.4937,  S_0 e^{rT} = 100.5013,  rel err = 0.007%",7.496360254580242e-05,0.005
+T6,True,"E[V_T at T=10] = 0.03997, theta = 0.04000, rel err = 0.09%",0.000869538184270803,0.05
+T7,True,"closed-form = 4.2216,  MC (1e6 paths) = 4.2142,  rel err = 0.173%",0.0017341613164361838,0.005
+T8,True,"SA xi=2.8755 (bench 2.8771),  SA chi=5.8798 (bench 5.9456),  max err = 0.0659",0.06589291071050063,0.2
